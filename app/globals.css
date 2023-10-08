@@ -1,7 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600&display=swap');
 
 :root {
-  --blue: #2a67b1;
+  --blue: #4481cb;
+
+  --gradient-background: linear-gradient(1deg, #FFFFFF 0%, #E2EFFF 100%);
 }
 
 * {
@@ -27,7 +29,11 @@ a {
 }
 
 .section__padding {
-  padding: 9rem 4rem;
+  padding: 9rem 7.5rem;
+}
+
+.section__padding-lm {
+  padding: 3rem 0 0 3rem;
 }
 
 .heading {

@@ -1,0 +1,129 @@
+.firstlook {
+    background: var(--gradient-background);
+
+    display: flex;
+    flex-direction: row;
+
+    justify-content: center;
+    align-items: center;
+
+    height: 80vh;
+}
+
+.firstlook__contents {
+    display: flex;
+    flex-direction: column;
+
+    align-items: flex-start;
+    justify-content: flex-start;
+
+    width: 50%;
+}
+
+.firstlook__contents h3 {
+    font-weight: 300;
+    font-size: 20px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.firstlook__contents-inputs {
+    display: flex;
+    flex-direction: row;
+
+    align-items: center;
+    justify-content: flex-start;
+
+    width: fit-content;
+}
+
+.firstlook__contents-inputs input {
+    font-size: 18px;
+
+    height: fit-content;
+    padding: 1rem 2rem;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border: 1px solid rgba(75, 75, 255, 0.199);
+}
+
+.firstlook__contents-inputs input::placeholder {
+    color: rgba(104, 104, 169, 0.416);
+}
+
+.firstlook__contents-inputs button {
+    cursor: pointer;
+    width: 100%;
+    height: fit-content;
+    font-size: 18px;
+    padding: 1rem 4rem;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+
+    background-image: url('https://cdn.codechef.com/images/home/spark.svg');
+    background-repeat: no-repeat;
+    background-color: var(--blue);
+    background-position: center;
+    background-position-x: 230px;
+    background-size: 10px;
+
+    position: relative;
+
+    outline: none;
+    border: none;
+
+    color: #fff;
+}
+
+.firstlook__contents-buttons {
+    display: flex;
+    flex-direction: row;
+    margin-top: 25px;
+
+    align-items: center;
+    justify-content: center;
+}
+
+.firstlook__contents-buttons h4 {
+    font-weight: 400;
+}
+
+.firstlook__contents-buttons button {
+    padding: 0.6rem 1.5rem 0.6rem 1.8rem;
+    margin-left: 15px;
+
+    background-color: #fff;
+    border: 1px solid rgba(75, 75, 255, 0.199);
+    border-radius: 5px;
+
+    cursor: pointer;
+}
+
+#googlebtn {
+    background-image: url('https://cdn.codechef.com/images/home/google_logo.svg');
+    background-repeat: no-repeat;
+    background-position-y: center;
+    background-position-x: 8px;
+
+    background-size: 13px;
+}
+
+#gitbtn {
+    background-image: url('https://cdn.codechef.com/images/home/gitHub_logo.svg');
+    background-repeat: no-repeat;
+    background-position-y: center;
+    background-position-x: 8px;
+
+    background-size: 13px;
+}
+
+#fbbtn {
+    background-image: url('https://cdn.codechef.com/images/home/facebook_logo.svg');
+    background-repeat: no-repeat;
+    background-position-y: center;
+    background-position-x: 8px;
+
+    background-size: 13px;
+}
+
+

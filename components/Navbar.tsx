@@ -41,11 +41,11 @@ const Navbar = () => {
   return (
     <div className='navbar'>
       <div className='navbar-logo' id='logo1'>
-        <Image src={logo} alt='' 
-        style={{width:'180px', height:'80px'}}/>
+        <Image src={logo} alt='' priority={true}
+        style={{width:'150px', height:'80px'}}/>
       </div>
       <div className='navbar-logo' id='logo2'>
-        <Image src={mobilelogo} alt='' 
+        <Image src={mobilelogo} alt='' priority={true}
         style={{width:'100%', minWidth:'100px'}}/>
       </div>
       <div className='navbar-sf'>

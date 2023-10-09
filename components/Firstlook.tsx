@@ -22,9 +22,9 @@ const Firstlook = () => {
 
             <div className='firstlook__contents-buttons'>
                 <h4>or sign up with</h4>
-                <button type='button' id='googlebtn'>Google</button>
-                <button type='button' id='gitbtn'>Github</button>
-                <button type='button' id='fbbtn'>Facebook</button>
+                <button type='button' id='googlebtn'><p>Google</p></button>
+                <button type='button' id='gitbtn'><p>Github</p></button>
+                <button type='button' id='fbbtn'><p>Facebook</p></button>
             </div>
         </div>
             <div className='firstlook__image'>

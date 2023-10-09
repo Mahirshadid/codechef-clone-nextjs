@@ -171,10 +171,12 @@
     .firstlook__contents h1,
     .firstlook__contents h3 {
         width: 80%;
+        margin-bottom: 10px;
     }
 
     .firstlook__contents-inputs {
         width: 80%;
+        margin-top: 12px;
     }
 
     .firstlook__image {
@@ -185,6 +187,44 @@
         justify-content: center;
 
         text-align: center;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .firstlook__contents h3 {
+        font-size: 20px;
+    }
+    
+    .firstlook__contents-inputs input {
+        padding: 0.8rem 0.5rem;
+    }
+
+    .firstlook__contents-inputs button {
+        padding: 0.8rem 0;
+    }
+
+    .firstlook__contents-buttons button p {
+        display: none;
+    }
+
+    .firstlook__contents-buttons button {
+        padding: 1rem 1rem;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .firstlook__contents-inputs {
+        flex-direction: column;
+    }
+    .firstlook__contents-inputs button {
+        width: fit-content;
+        padding: 1rem 3rem;
+        border-radius: 10px;
+    }
+    .firstlook__contents-inputs input {
+        width: fit-content;
+        padding: 1rem 1rem;
+        border-radius: 10px;
     }
 }
 

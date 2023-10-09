@@ -27,10 +27,10 @@ const Firstlook = () => {
                 <button type='button' id='fbbtn'>Facebook</button>
             </div>
         </div>
-        <div className='firstlook__image'>
-            <Image src={codingboy} alt='' 
-            style={{width:'100%',minWidth:'300px'}}/>
-        </div>
+            <div className='firstlook__image'>
+                <Image src={codingboy} alt='' 
+                style={{width:'90%',minWidth:'300px'}}/>
+            </div>
     </div>
   )
 }

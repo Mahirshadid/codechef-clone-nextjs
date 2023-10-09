@@ -7,7 +7,7 @@
     justify-content: center;
     align-items: center;
 
-    height: 80vh;
+    height: fit-content;
 }
 
 .firstlook__contents {
@@ -17,7 +17,6 @@
     align-items: flex-start;
     justify-content: flex-start;
 
-    width: 50%;
 }
 
 .firstlook__contents h3 {
@@ -34,14 +33,15 @@
     align-items: center;
     justify-content: flex-start;
 
-    width: fit-content;
+    width: 100%;
 }
 
 .firstlook__contents-inputs input {
     font-size: 18px;
-
+    width: 100%;
     height: fit-content;
-    padding: 1rem 2rem;
+    padding: 1rem 0;
+    padding-left: 1rem;
     border-top-left-radius: 10px;
     border-bottom-left-radius: 10px;
     border: 1px solid rgba(75, 75, 255, 0.199);
@@ -53,21 +53,21 @@
 
 .firstlook__contents-inputs button {
     cursor: pointer;
-    width: 100%;
+    width: 500px;
     height: fit-content;
     font-size: 18px;
-    padding: 1rem 4rem;
+    padding: 1rem 0;
     border-top-right-radius: 10px;
     border-bottom-right-radius: 10px;
 
-    background-image: url('https://cdn.codechef.com/images/home/spark.svg');
+    background: url('https://cdn.codechef.com/images/home/spark.svg');
     background-repeat: no-repeat;
     background-color: var(--blue);
     background-position: center;
-    background-position-x: 230px;
+    background-position-x: 20px;
     background-size: 10px;
+    background-attachment: local;
 
-    position: relative;
 
     outline: none;
     border: none;
@@ -126,4 +126,65 @@
     background-size: 13px;
 }
 
+
+.firstlook__image {
+    width: fit-content;
+    padding: 0 0 0 3rem;
+    margin: 0 0 0 3rem;
+}
+
+@media screen and (max-width: 1440px) {
+    .firstlook__contents-inputs button {
+        font-size: 15px;
+    }
+
+    .firstlook__contents-inputs input {
+        font-size: 15px;
+        padding: 1rem 0.6rem;
+    }
+}
+
+@media screen and (max-width: 1250px) {
+    .firstlook__contents-buttons h4 {
+        font-size: 12px;
+    }
+    .firstlook__contents-inputs button {
+        font-size: 13.5px;
+    }
+
+    .firstlook__contents-inputs input {
+        font-size: 13.5px;
+    }
+}
+
+@media screen and (max-width: 960px) {
+    .firstlook {
+        flex-direction: column-reverse;
+    }
+    .firstlook__contents {
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    .firstlook__contents h1,
+    .firstlook__contents h3 {
+        width: 80%;
+    }
+
+    .firstlook__contents-inputs {
+        width: 80%;
+    }
+
+    .firstlook__image {
+        margin: 0;
+        padding: 0;
+
+        align-items: center;
+        justify-content: center;
+
+        text-align: center;
+    }
+}
 

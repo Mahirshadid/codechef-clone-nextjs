@@ -29,7 +29,7 @@ a {
 }
 
 .section__padding {
-  padding: 9rem 7.5rem;
+  padding: 6rem 7.5rem;
 }
 
 .section__padding-lm {
@@ -50,4 +50,16 @@ a {
   font-size: 32px;
 
   color: #fff!important;
+}
+
+@media screen and (max-width: 1440px) {
+  .section__padding {
+    padding: 6rem 4.5rem;
+  }
+}
+
+@media screen and (max-width: 1250px) {
+  .heading {
+    font-size: 48px;
+  }
 }

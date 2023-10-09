@@ -5,8 +5,10 @@ import { Courses, Firstlook } from '@/components'
 export default function Home() {
   return (
     <main className={styles.main}>
-      <Firstlook />
-      <Courses />
+      <div className='motherdiv'>
+        <Firstlook />
+        <Courses />
+      </div>
     </main>
   )
 }

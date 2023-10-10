@@ -1,0 +1,49 @@
+<div className={`courses-wd ${selectedcourses === 'wd' ? 'active' : ''}`} id='wd'>
+
+            <div className='courses-wd-cards'>
+                <div className='card'>
+                    <div className='card-image-level'>
+                        <Image src={python} alt='' />
+                        <p>Beginner</p>
+                    </div>
+                    <h3>Learn HTML / CSS</h3>
+                    <p className='card-desc'>Want to get started with web development? Start with this beginners course which teaches basic HTML and CSS from scratch</p>
+                    <div className='card-learner-rating'>
+                        <p>7.1k+ learners</p>
+                        <p className='rating'>4.5</p>
+                        <Image src='https://cdn.codechef.com/images/home/star_icon.svg' height={10} width={10} alt='' />
+                    </div>
+                    <button type='button'>View this course</button>
+                </div>
+                <div className='card'>
+                    <div className='card-image-level'>
+                        <Image src={java} alt='' />
+                        <p>Intermediate</p>
+                    </div>
+                    <h3>
+                     Web development using JavaScript</h3>
+                    <p className='card-desc'>Learn DOM events, how to handle user inputs and data structures, incorporate APIs and Sounds as you build your projects.</p>
+                    <div className='card-learner-rating'>
+                        <p>500+ learners</p>
+                        <p className='rating'>4.5</p>
+                        <Image src='https://cdn.codechef.com/images/home/star_icon.svg' height={10} width={10} alt='' />
+                    </div>
+                    <button type='button'>View this course</button>
+                </div>
+                <div className='card'>
+                    <div className='card-image-level'>
+                        <Image src={cpp} alt='' />
+                        <p>Beginner</p>
+                    </div>
+                    <h3>UX for Web developers</h3>
+                    <p className='card-desc'>This course teaches web developers the basics of creating good user experiences through fundamental design principles</p>
+                    <div className='card-learner-rating'>
+                        <p>1.5k+ learners</p>
+                        <p className='rating'>4.5</p>
+                        <Image src='https://cdn.codechef.com/images/home/star_icon.svg' height={10} width={10} alt='' />
+                    </div>
+                    <button type='button'>View this course</button>
+                </div>
+            </div>
+
+            </div>

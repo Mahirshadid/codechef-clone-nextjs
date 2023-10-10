@@ -3,7 +3,7 @@
 :root {
   --blue: #4481cb;
 
-  --gradient-background: linear-gradient(1deg, #FFFFFF 0%, #E2EFFF 100%);
+  --gradient-background: linear-gradient(179deg, #eef5ff 74%, #FFFFFF 100%);
 }
 
 * {
@@ -12,7 +12,7 @@
   margin: 0;
 
   scroll-behavior: smooth;
-  color: #5a5959;
+  color: #818080;
 
   font-family: 'Outfit', sans-serif;
 }
@@ -44,14 +44,6 @@ a {
   color: #2e3446;
 }
 
-.lightheading {
-  font-family: 'Outfit', sans-serif;
-  font-weight: 400;
-  font-size: 32px;
-
-  color: #fff!important;
-}
-
 @media screen and (max-width: 1440px) {
   .section__padding {
     padding: 6rem 4.5rem;
@@ -75,6 +67,6 @@ a {
 
 @media screen and (max-width: 480px) {
   .section__padding {
-    padding: 0.2rem 0.4rem;
+    padding: 1rem 0.4rem;
   }
 }

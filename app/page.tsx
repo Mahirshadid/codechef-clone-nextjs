@@ -1,6 +1,6 @@
 import Image from 'next/image'
 import styles from './page.module.css'
-import { Courses, Firstlook } from '@/components'
+import { Browsecat, Courses, Firstlook } from '@/components'
 
 export default function Home() {
   return (
@@ -8,6 +8,7 @@ export default function Home() {
       <div className='motherdiv'>
         <Firstlook />
         <Courses />
+        <Browsecat />
       </div>
     </main>
   )

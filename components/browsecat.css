@@ -2,7 +2,7 @@
     display: flex;
     flex-direction: column;
 
-    background-color: #2e2e46;
+    background-color: #282839;
 
     width: 100%;
 
@@ -49,6 +49,7 @@
 
 .bc__section-tb h1 {
     font-weight: 400;
+    font-size: 32px;
 }
 
 .bc__section-tb h2 {

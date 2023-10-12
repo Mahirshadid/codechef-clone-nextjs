@@ -26,6 +26,10 @@
     padding: 1.5rem;
 }
 
+.courses-links_container p {
+    font-size: 16px;
+}
+
 .courses-links-line {
     width: 90%;
     height: 2px;
@@ -75,7 +79,7 @@
 
     width: 280px;
 
-    padding: 1.5rem;
+    padding: 2rem;
 
     box-shadow: 1px 1px 5px rgb(215, 215, 215);
     border-radius: 10px;
@@ -107,6 +111,7 @@
     margin-bottom: auto;
     font-weight: 400;
     color: rgb(70, 70, 70);
+    font-size: 19px;
 }
 
 .card-desc {

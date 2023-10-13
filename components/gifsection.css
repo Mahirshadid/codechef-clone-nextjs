@@ -1,0 +1,113 @@
+.gifsection {
+    display: flex;
+    flex-direction: column;
+
+    justify-content: center;
+    align-items: center;
+
+    height: fit-content;
+}
+
+.gifsection__header {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.gifsection__header h1 {
+    font-size: 40px;
+    font-weight: 400;
+    color: black;
+    padding-left: 40px;
+    margin-bottom: 25px
+}
+
+.gifsection__header h3 {
+    font-size: 20px;
+    font-weight: 400;
+    width: 70%;
+}
+
+.gifsection__body {
+    display: flex;
+    flex-direction: row;
+
+    justify-content: space-between;
+    align-items: center;
+
+    width: 100%;
+    margin-top: 100px;
+}
+
+.body__ticks {
+    width: 100%;
+}
+
+.body__ticks-line {
+    width: 3px;
+    height: 230px;
+    background-color: rgb(94, 236, 94);
+
+    position: absolute;
+    margin-left: 11px;
+    margin-top: 10px;
+    z-index: -1;
+}
+
+.body__ticks h3 {
+    padding-bottom: 50px;
+    font-size: 20px;
+    font-weight: 400;
+    color: rgb(82, 82, 82);
+}
+
+
+.body__gif {
+    width: 100%;
+    text-align: end;
+}
+
+@media screen and (max-width: 780px) {
+
+    .gifsection__body {
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+        margin-top: 50px;
+    }
+
+    .body__gif {
+        text-align: center;
+    }
+    
+    .body__ticks {
+        width: fit-content;
+        align-items: center;
+        justify-content: center;
+        margin-top: 30px;
+    }
+
+    .gifsection__header h1 {
+        padding-left: 0;
+        width: 95%;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .gifsection__header h1 {
+        font-size: 32px;
+    }
+    .gifsection__header h3 {
+        font-size: 17px;
+    }
+    .body__ticks h3 {
+        font-size: 15px;
+    }
+    .body__ticks-line {
+        height: 215px;
+        position: absolute;
+        margin-left: 12px;
+    }
+}

@@ -102,7 +102,7 @@ const Slidingsection = () => {
                 <Link href={`/`} className="link">
 
                   <div className="item-description">
-                    <p id="quot">''</p>
+                    <p id="quot">&apos;&apos;</p>
                     <p id="desc">{item.description}</p>
                     <img src={item.stars} alt="" />
                   </div>

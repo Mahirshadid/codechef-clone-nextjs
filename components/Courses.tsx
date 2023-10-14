@@ -121,7 +121,7 @@ const Courses = () => {
                         <p>Intermediate</p>
                     </div>
                     <h3>Logic building in Python</h3>
-                    <p className='card-desc'>Learn to solve basic DSA problems using Python's easy to understand and user-friendly syntax</p>
+                    <p className='card-desc'>Learn to solve basic DSA problems using Python&apos;s easy to understand and user-friendly syntax</p>
                     <div className='card-learner-rating'>
                         <p>18.1k+ learners</p>
                         <p className='rating'>4.5</p>
@@ -135,7 +135,7 @@ const Courses = () => {
                         <p>Intermediate</p>
                     </div>
                     <h3>Logic building in Java</h3>
-                    <p className='card-desc'>Utilize Java's object-oriented nature for efficient problem-solving and 
+                    <p className='card-desc'>Utilize Java&apos;s object-oriented nature for efficient problem-solving and 
                                             leverage its powerful programming capabilities</p>
                     <div className='card-learner-rating'>
                         <p>16.4k+ learners</p>

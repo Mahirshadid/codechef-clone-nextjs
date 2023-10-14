@@ -19,7 +19,7 @@ const Linksection = () => {
                 <p><a href='https://www.codechef.com/learn'>Learning Paths</a></p>
                 <p><a href='https://www.codechef.com/practice'>Practice Problems</a></p>
                 <p><a href='https://discuss.codechef.com/'>CodeChef Discuss</a></p>
-                <p><a href='https://www.codechef.com/wiki/faq'>FAQ's</a></p>
+                <p><a href='https://www.codechef.com/wiki/faq'>FAQ&apos;s</a></p>
             </div>
         </div>
         <div className='linksection_part2'>

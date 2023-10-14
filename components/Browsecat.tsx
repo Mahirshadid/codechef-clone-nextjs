@@ -12,7 +12,7 @@ const Browsecat = () => {
             <div className='bc__section-tb'>
                 <h2>Learning courses</h2>
                 <h1>Practical, Job relevant topics</h1>
-                <h2>From Python to web development, you'll master <span>concepts that employers demand</span>, ensuring your smooth transition from beginner to professional.</h2>
+                <h2>From Python to web development, you&apos;ll master <span>concepts that employers demand</span>, ensuring your smooth transition from beginner to professional.</h2>
                 <a href='https://www.codechef.com/learn?itm_medium=home&itm_campaign=learn'><button type='button'>Browse Catalog</button></a>
             </div>
             <div className='bc__section-img'>

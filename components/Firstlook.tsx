@@ -16,15 +16,15 @@ const Firstlook = () => {
                 focussed courses designed by experts.</h3>
             
             <div className='firstlook__contents-inputs'>
-                <input id='email-input' placeholder='Enter email'></input>
-                <button type='submit'>Start learning today</button>
+                <form action='https://www.codechef.com/signup'><input id='email-input' placeholder='Enter email' required />
+                <button type='submit'>Start learning today</button></form>
             </div>
 
             <div className='firstlook__contents-buttons'>
                 <h4>or sign up with</h4>
-                <button type='button' id='googlebtn'><p>Google</p></button>
-                <button type='button' id='gitbtn'><p>Github</p></button>
-                <button type='button' id='fbbtn'><p>Facebook</p></button>
+                <a href='https://accounts.google.com'><button type='button' id='googlebtn'><p>Google</p></button></a>
+                <a href='https://github.com/login'><button type='button' id='gitbtn'><p>Github</p></button></a>
+                <a href='https://www.facebook.com/'><button type='button' id='fbbtn'><p>Facebook</p></button></a>
             </div>
         </div>
             <div className='firstlook__image'>

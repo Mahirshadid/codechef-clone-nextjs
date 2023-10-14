@@ -1,0 +1,78 @@
+.footer {
+    display: flex;
+    flex-direction: row;
+
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+
+    justify-content: space-between;
+    align-items: center;
+
+    padding-left: 3rem;
+    padding-right: 3rem;
+    width: 100%;
+    max-width: 2000px;
+
+    background-color: #fff;
+}
+
+.footer p {
+    color: rgba(0, 0, 0, 0.723);
+}
+
+.icon_container {
+    display: flex;
+    flex-direction: row;
+    width: fit-content;
+
+    align-items: center;
+}
+
+.ic_socials {
+    display: inline-block;
+    align-items: center;
+
+    width: fit-content;
+    align-items: center;
+    text-align: center;
+    padding: 0.5rem;
+    margin-left: 5px;
+
+    background: url('https://cdn.codechef.com/images/icons/social-sprite.svg') no-repeat;
+    background-position-y: -10px;
+    background-position-x: -17px;
+}
+
+.ic_socials a {
+    font-size: 31px;
+
+    margin-right: 3px;
+    margin-left: 3px;
+
+    opacity: 0;
+}
+
+@media screen and (max-width: 690px) {
+    .footer{
+        flex-direction: column;
+    }
+    .icon_container {
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 3300px) {
+    .ic_socials {
+        padding: 0.2rem;
+        background-position-y: -10px;
+        background-position-x: -15px;
+        background-size: 250px;
+    }
+
+    .ic_socials a {
+        font-size: 20px;
+    
+        margin-right: 4px;
+        margin-left: 3px;
+    }
+}

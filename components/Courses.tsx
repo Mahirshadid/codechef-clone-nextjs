@@ -78,7 +78,7 @@ const Courses = () => {
                         <p className='rating'>4.6</p>
                         <Image src='https://cdn.codechef.com/images/home/star_icon.svg' height={10} width={10} alt='' />
                     </div>
-                    <button type='button'>View this course</button>
+                    <a href='https://www.codechef.com/learn?itm_medium=navmenu&itm_campaign=learn'><button type='button'>View this course</button></a>
                 </div>
                 <div className='card'>
                     <div className='card-image-level'>
@@ -92,7 +92,7 @@ const Courses = () => {
                         <p className='rating'>4.6</p>
                         <Image src='https://cdn.codechef.com/images/home/star_icon.svg' height={10} width={10} alt='' />
                     </div>
-                    <button type='button'>View this course</button>
+                    <a href='https://www.codechef.com/learn?itm_medium=navmenu&itm_campaign=learn'><button type='button'>View this course</button></a>
                 </div>
                 <div className='card'>
                     <div className='card-image-level'>
@@ -106,7 +106,7 @@ const Courses = () => {
                         <p className='rating'>4.6</p>
                         <Image src='https://cdn.codechef.com/images/home/star_icon.svg' height={10} width={10} alt='' />
                     </div>
-                    <button type='button'>View this course</button>
+                    <a href='https://www.codechef.com/learn?itm_medium=navmenu&itm_campaign=learn'><button type='button'>View this course</button></a>
                 </div>
             </div>
 
@@ -127,7 +127,7 @@ const Courses = () => {
                         <p className='rating'>4.5</p>
                         <Image src='https://cdn.codechef.com/images/home/star_icon.svg' height={10} width={10} alt='' />
                     </div>
-                    <button type='button'>View this course</button>
+                    <a href='https://www.codechef.com/learn?itm_medium=navmenu&itm_campaign=learn'><button type='button'>View this course</button></a>
                 </div>
                 <div className='card'>
                     <div className='card-image-level'>
@@ -142,7 +142,7 @@ const Courses = () => {
                         <p className='rating'>4.5</p>
                         <Image src='https://cdn.codechef.com/images/home/star_icon.svg' height={10} width={10} alt='' />
                     </div>
-                    <button type='button'>View this course</button>
+                    <a href='https://www.codechef.com/learn?itm_medium=navmenu&itm_campaign=learn'><button type='button'>View this course</button></a>
                 </div>
                 <div className='card'>
                     <div className='card-image-level'>
@@ -156,7 +156,7 @@ const Courses = () => {
                         <p className='rating'>4.5</p>
                         <Image src='https://cdn.codechef.com/images/home/star_icon.svg' height={10} width={10} alt='' />
                     </div>
-                    <button type='button'>View this course</button>
+                    <a href='https://www.codechef.com/learn?itm_medium=navmenu&itm_campaign=learn'><button type='button'>View this course</button></a>
                 </div>
             </div>
 
@@ -177,7 +177,7 @@ const Courses = () => {
                         <p className='rating'>4.5</p>
                         <Image src='https://cdn.codechef.com/images/home/star_icon.svg' height={10} width={10} alt='' />
                     </div>
-                    <button type='button'>View this course</button>
+                    <a href='https://www.codechef.com/learn?itm_medium=navmenu&itm_campaign=learn'><button type='button'>View this course</button></a>
                 </div>
                 <div className='card'>
                     <div className='card-image-level'>
@@ -191,7 +191,7 @@ const Courses = () => {
                         <p className='rating'>4.5</p>
                         <Image src='https://cdn.codechef.com/images/home/star_icon.svg' height={10} width={10} alt='' />
                     </div>
-                    <button type='button'>View this course</button>
+                    <a href='https://www.codechef.com/learn?itm_medium=navmenu&itm_campaign=learn'><button type='button'>View this course</button></a>
                 </div>
                 <div className='card'>
                     <div className='card-image-level'>
@@ -205,7 +205,7 @@ const Courses = () => {
                         <p className='rating'>4.5</p>
                         <Image src='https://cdn.codechef.com/images/home/star_icon.svg' height={10} width={10} alt='' />
                     </div>
-                    <button type='button'>View this course</button>
+                    <a href='https://www.codechef.com/learn?itm_medium=navmenu&itm_campaign=learn'><button type='button'>View this course</button></a>
                 </div>
             </div>
 
@@ -226,7 +226,7 @@ const Courses = () => {
             <p className='rating'>4.5</p>
             <Image src='https://cdn.codechef.com/images/home/star_icon.svg' height={10} width={10} alt='' />
         </div>
-        <button type='button'>View this course</button>
+        <a href='https://www.codechef.com/learn?itm_medium=navmenu&itm_campaign=learn'><button type='button'>View this course</button></a>
     </div>
     <div className='card'>
         <div className='card-image-level'>
@@ -240,7 +240,7 @@ const Courses = () => {
             <p className='rating'>4.5</p>
             <Image src='https://cdn.codechef.com/images/home/star_icon.svg' height={10} width={10} alt='' />
         </div>
-        <button type='button'>View this course</button>
+        <a href='https://www.codechef.com/learn?itm_medium=navmenu&itm_campaign=learn'><button type='button'>View this course</button></a>
     </div>
     <div className='card'>
         <div className='card-image-level'>
@@ -254,7 +254,7 @@ const Courses = () => {
             <p className='rating'>4.5</p>
             <Image src='https://cdn.codechef.com/images/home/star_icon.svg' height={10} width={10} alt='' />
         </div>
-        <button type='button'>View this course</button>
+        <a href='https://www.codechef.com/learn?itm_medium=navmenu&itm_campaign=learn'><button type='button'>View this course</button></a>
     </div>
 </div>
 

@@ -9,7 +9,16 @@
 
     height: fit-content;
 
-    border-bottom: 2px solid rgba(205, 218, 255, 0.626);
+    border-bottom: 2px solid rgba(95, 96, 100, 0.319);
+
+    width: 100%;
+    max-width: 2000px;
+
+    background-color: #fff;
+
+    position: fixed;
+    top: 0; 
+    z-index: 1000;
 }
 
 .navbar-logo {

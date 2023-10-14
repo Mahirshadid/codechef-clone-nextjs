@@ -1,0 +1,63 @@
+.sparkIcon {
+    background: url('https://cdn.codechef.com/images/home/spark.svg') no-repeat 0 0;
+    width: 15px;
+    height: 15px;
+    color: #ffffff00;
+}
+
+.startlearning {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: fit-content;
+    text-align: center;
+
+    width: 100%;
+    max-width: 2000px;
+
+    background-color: #fff;
+}
+
+.startlearning h1 {
+    font-size: 40px;
+    font-weight: 400;
+    color: black;
+    margin-bottom: 30px;
+}
+
+.startlearning button {
+    font-size: 18px;
+    font-weight: 400;
+    color: #fff;
+    background-color: var(--blue);
+    outline: none;
+    border: none;
+    margin: 32px;
+    padding: 16px 20px;
+    width: 260px;
+    margin-bottom: 40px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 500px) {
+    .startlearning h1 {
+        font-size: 32px;
+        width: 70%;
+    }
+}
+
+@media screen and (max-width: 350px) {
+    .startlearning button a {
+        width: 100%;
+        font-size: 16px;
+        padding: 14px 15px;
+        margin: 28px;
+        margin-bottom: 50px;
+    }
+    .startlearning h1 {
+        font-size: 28px;
+        margin-bottom: 10px;
+    }
+}

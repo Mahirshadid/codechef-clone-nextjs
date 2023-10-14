@@ -41,8 +41,8 @@ const Navbar = () => {
   return (
     <div className='navbar'>
       <div className='navbar-logo' id='logo1'>
-        <Image src={logo} alt='' priority={true}
-        style={{width:'150px', height:'80px'}}/>
+        <a href='#'><Image src={logo} alt='' priority={true}
+        style={{width:'150px', height:'80px'}}/></a>
       </div>
       <div className='navbar-logo' id='logo2'>
         <Image src={mobilelogo} alt='' priority={true}
@@ -53,8 +53,8 @@ const Navbar = () => {
         <p><a href='#faculty'>Faculty</a></p>
       </div>
       <div className='navbar-ls'>
-        <p id='login'><Link href='\login'>Login</Link></p>
-        <p id='sign'><Link href='\signup'>Sign Up</Link></p>
+        <p id='login'><Link href='https://www.codechef.com/login?destination=/'>Login</Link></p>
+        <p id='sign'><Link href='https://www.codechef.com/signup?destination=/'>Sign Up</Link></p>
       </div>
     </div>
   )

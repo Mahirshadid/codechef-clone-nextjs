@@ -1,6 +1,6 @@
 import Image from 'next/image'
 import styles from './page.module.css'
-import { Bluepicsection, Browsecat, Courses, Firstlook, Gifsection, Slidingsection } from '@/components'
+import { Bluepicsection, Browsecat, Courses, Firstlook, Footer, Gifsection, Linksection, Pro, Slidingsection, Startlearning } from '@/components'
 
 export default function Home() {
   return (
@@ -12,6 +12,10 @@ export default function Home() {
         <Slidingsection />
         <Gifsection />
         <Bluepicsection />
+        <Startlearning />
+        <Pro />
+        <Linksection />
+        <Footer />
       </div>
     </main>
   )

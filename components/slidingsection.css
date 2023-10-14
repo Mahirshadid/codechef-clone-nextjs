@@ -6,6 +6,9 @@
   justify-content: space-between;
   align-items: center;
 
+  width: 100%;
+  max-width: 2000px;
+
   padding: 4rem 0 4rem 2rem;
 
   background: radial-gradient(ellipse at 87% 20%, #BBD5F3 0%, #FFFFFF 76%);

@@ -1,6 +1,9 @@
 .courses {
     display: flex;
     width: 100%;
+    max-width: 2000px;
+
+    background-color: #fff;
 }
 
 .courses-contents {
@@ -79,7 +82,7 @@
 
     width: 280px;
 
-    padding: 2rem;
+    padding: 1.5rem;
 
     box-shadow: 1px 1px 5px rgb(215, 215, 215);
     border-radius: 10px;
@@ -93,7 +96,7 @@
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    align-items: center;
+    align-items: flex-start;
 
     margin-bottom: 20px;
 
@@ -141,6 +144,7 @@
 }
 
 .card button {
+    width: 100%;
     padding: 0.7rem;
 
     font-size: 15px;

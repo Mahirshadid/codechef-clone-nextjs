@@ -12,7 +12,7 @@
   margin: 0;
 
   scroll-behavior: smooth;
-  color: #818080;
+  color: #686868;
 
   font-family: 'Outfit', sans-serif;
 }
@@ -29,12 +29,9 @@ a {
 }
 
 .section__padding {
-  padding: 4rem 10rem;
+  padding: 7rem 10rem;
 }
 
-.section__padding-lm {
-  padding: 3rem 0 0 3rem;
-}
 
 .heading {
   font-family: 'Outfit', sans-serif;
@@ -55,7 +52,7 @@ a {
     font-size: 48px;
   }
   .section__padding {
-    padding: 2rem 3rem;
+    padding: 5rem 3rem;
   }
 }
 
